@@ -1,0 +1,145 @@
+
+body {
+    background-color: #f9d9d790;
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    color: #333;
+}
+
+.conteneur {
+    display: grid;
+    grid-template-columns: 320px 1fr;
+    min-height: 100vh;
+}
+
+
+.left {
+    background-color: #0d1d2cee;
+    color: #E0C7C5;
+    padding: 40px 25px;
+}
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    background-color: #526779;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    background-image: url('Images/Jarod_WAEFFLER_Photo.jpg');
+    background-size: cover;
+    background-position: center;
+    border: 2px solid #E2BFA7;
+}
+
+.left h1 { 
+    margin: 0; 
+    font-size: 28px; 
+    line-height: 1.1; 
+}
+.left h1 span { 
+    color: white; 
+}
+.subtitle { 
+    font-size: 0.9em; 
+    margin-bottom: 30px; 
+    opacity: 0.8; 
+}
+
+.section-left { 
+    margin-top: 30px; 
+}
+.section-left h2 { 
+    font-size: 1.2em; 
+    text-transform: uppercase; 
+    margin-bottom: 5px; 
+}
+.section-left hr { 
+    border: 0.5px solid #E2BFA7; 
+    opacity: 0.3; 
+}
+
+
+.social-buttons { 
+    margin-top: 20px; 
+}
+
+.btn-linkedin, .btn-download {
+    display: block;
+    width: 80%;
+    margin-top: 10px;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 0.9em;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+}
+
+.btn-linkedin { 
+    background-color: #5A9C9B; 
+}
+.btn-download { 
+    background-color: #669594; 
+}
+
+
+.grosbloc {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+.card {
+    background-color: white;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.card h1 {
+    color: #333;
+    margin-top: 0;
+    font-size: 1.5em;
+}
+
+
+.exp-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+}
+
+.exp-card {
+    border-top: 5px solid #4AA3A2;
+}
+
+.badge {
+    background-color: #4AA3A2;
+    color: white;
+    padding: 3px 10px;
+    border-radius: 20px;
+    font-size: 0.7em;
+    text-transform: uppercase;
+}
+
+.company { 
+    font-weight: bold; 
+    color: #C7B4B3; 
+    margin: 5px 0 0 0; 
+}
+.date { 
+    font-style: italic; 
+    font-size: 0.85em; 
+    color: #777; 
+    margin-bottom: 10px; 
+}
+.desc { 
+    font-size: 0.9em; 
+    line-height: 1.4; 
+}
+
+.edu-item { 
+    margin-bottom: 15px; }
